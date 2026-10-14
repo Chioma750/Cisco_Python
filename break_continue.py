@@ -8,7 +8,7 @@
 while True:
     n = "chupacabra"
     word = input("Enter a word: ")
-    if word != n:
-        break
-        counter += 1
+    if word == n:
         print("You have successfully left the loop.")
+        break
+        
